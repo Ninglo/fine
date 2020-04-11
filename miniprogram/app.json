@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/mainPage/home",
+    "pages/dataAnalysis/graph",
+    "pages/test/test",
+    "pages/home/me",
+    "pages/home/feedBack/feedBack",
+    "pages/home/center/center",
+    "pages/home/history/history",
+    "pages/mainPage/choose/choose",
+    "pages/mainPage/timer/timer"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/mainPage/home",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/dataAnalysis/graph",
+        "text": "数据"
+      },
+      {
+        "pagePath": "pages/home/me",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

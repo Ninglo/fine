@@ -1,0 +1,51 @@
+<view class="navbar">
+  <text wx:for="{{ navbar }}" data-idx="{{ index }}" class="item {{ currentTab == index ? 'active' : '' }}"
+    wx:key="unique" bindtap="navbarTap">{{ item }}</text>
+</view>
+
+<view hidden="{{ currentTab !== 0 }}">
+  总时长
+  {{ times }}分钟
+</view>
+
+<view hidden="{{ currentTab !== 1 }}">
+  <view class="page">
+    <view class="view_box233"></view>
+    <view>
+      <view class="view_box">
+        你最喜欢的活动类型top3：\n 1. \n 2. \n 3. \n
+      </view>
+    </view>
+    <view class="view_box233"> </view>
+  </view>
+  <view class="page">
+    <view class="view_box233"></view>
+    <view>
+      <view class="view_box">
+        你最喜欢的活动类型top3：\n 1. \n 2. \n 3. \n
+      </view>
+    </view>
+    <view class="view_box233"> </view>
+  </view>
+</view>
+
+<view hidden="{{ currentTab !== 2 }}">
+  <view class="page">
+    <view class="view_box233"></view>
+    <view>
+      <view class="view_box">
+        心情掌控能力分析：\n{{}}
+      </view>
+    </view>
+    <view class="view_box233"> </view>
+  </view>
+  <view class="page">
+    <view class="view_box233"></view>
+    <view>
+      <view class="view_box">
+        意见及建议：\n{{}}
+      </view>
+    </view>
+    <view class="view_box233"> </view>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<text>{{ projecto }}</text>
+<view class="countTime">{{timecount}}</view>
+<button class="aaa" bindtap="start">开始</button>
+<button class="aaa" bindtap="Reset">停止</button>
+
+<modal hidden="{{hiddenmodalput}}" title="打分" confirm-text="确定" cancel-text="取消" bindcancel="cancelM"
+    bindconfirm="confirmM">
+    <input bindinput='iName' maxlength='1' type="number" placeholder="请打分..." auto-focus />
+</modal>

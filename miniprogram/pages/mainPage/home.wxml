@@ -1,0 +1,7 @@
+<image
+  class="background"
+  src="/images/mainPage/u17.png"
+  mode="widthFix"
+></image>
+
+<button class="circle" type="default" bindtap="moveTo">Content</button>

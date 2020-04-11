@@ -1,0 +1,11 @@
+<block wx:for="{{ datas }}">
+    <text>日期: {{ item.due }}
+        得分: {{ item.points }}
+        项目: {{ item.project }}
+        时长: {{ item.time}}分钟</text>
+    <text wx:if="{{ item.points >= 4}}">评价: 优</text>
+    <text wx:elif="{{ item.points >= 2}}">评价: 良</text>
+    <text wx:elif="{{ item.points >= 0}}">评价: 普通</text>
+    <text wx:else>评价: 差</text>
+    <text>\n</text>
+</block>

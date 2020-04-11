@@ -1,0 +1,43 @@
+page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.navbar {
+  flex: none;
+  display: flex;
+  background: #fff;
+}
+.navbar .item {
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+}
+.navbar .item.active {
+  color: #ffcc00;
+}
+.navbar .item.active:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rpx;
+  background: #ffcc00;
+}
+.page {
+  display: flex;
+  flex-direction: row;
+}
+.view_box233 {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.view_box {
+  height: 200rpx;
+  background-color: white;
+}

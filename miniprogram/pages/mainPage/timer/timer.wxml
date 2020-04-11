@@ -1,5 +1,5 @@
 <text>{{ projecto }}</text>
-<view class="countTime">{{timecount}}</view>
+<text class='marright'>{{hours}}:{{minute}}:{{second}}</text>
 <button class="aaa" bindtap="start">开始</button>
 <button class="aaa" bindtap="Reset">停止</button>
 
